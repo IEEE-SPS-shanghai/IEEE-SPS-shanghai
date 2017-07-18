@@ -12,13 +12,15 @@ install:
   - npm install
 
 before_script:
-  - npm install -g gulp
+ # - npm install -g gulp
+
 
 script:
-  - gulp dist
+  - hexo g
+
 
 after_script:
-  - cd dist
+  - cd ./public
   - git init
   - git config user.name "zytx121"
   - git config user.email "592267829@qq.com"
