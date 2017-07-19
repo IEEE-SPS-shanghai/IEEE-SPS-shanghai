@@ -10,7 +10,7 @@ cache:
 # S: Build Lifecycle
 install:
   - npm install
-
+  - npm install ejs
 before_script:
  # - npm install -g gulp
 
