@@ -1,9 +1,5 @@
 .DS_Store
 
-npm-debug.log
-
-_config.yml
-
-node_modules
+npm-debug.lognode_modules
 
 .idea
