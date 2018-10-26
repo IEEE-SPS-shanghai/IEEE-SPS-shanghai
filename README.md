@@ -1,2 +1,0 @@
-# IEEE-SPS-shanghai
-website
